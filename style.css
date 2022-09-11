@@ -1,0 +1,62 @@
+body {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.container {
+    width: 400px;
+    height: 600px;
+    background-color: #2962ff;
+    position: relative;
+    font-size: 100px;
+    text-align: center;
+    border: 5px solid #cf564d;
+    overflow: hidden;
+}
+  
+.ball {
+    width: 60px;
+    height: 60px;
+    background-color: #cf564d;
+    border: 2px solid #000;
+    border-radius: 50%;
+    position: absolute;
+}
+  
+.platform {
+    width: 200px;
+    height: 15px;
+    background-image: url('platform.jpg');
+    background-size: contain;
+    position: absolute;
+}
+
+.controls {
+    display: flex;
+    justify-content: space-around;
+}
+
+.left-arrow {
+    width: 99px;
+    height: 45px;
+    background-image: url('arrow.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    transform: rotate(180deg);
+    cursor: pointer;
+}
+
+.right-arrow {
+    width: 99px;
+    height: 45px;
+    background-image: url('arrow.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.border {
+    background-color: #c6c6c6;
+    height: 45px;
+    width: 2px;
+}
